@@ -5,8 +5,8 @@ import (
 	"github.com/labstack/gommon/log"
 	"sync"
 
-	"meliodas/config"
-	"meliodas/src"
+	"perkawis/config"
+	"perkawis/src"
 )
 
 func main() {

@@ -5,11 +5,11 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"log"
-	"meliodas/config"
-	"meliodas/registry"
+	"perkawis/config"
+	"perkawis/registry"
 
-	"meliodas/src/delivery"
 	"net/http"
+	"perkawis/src/delivery"
 )
 
 type server struct {

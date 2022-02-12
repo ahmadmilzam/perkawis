@@ -1,9 +1,9 @@
 package registry
 
 import (
-	"meliodas/config"
-	"meliodas/src/model"
-	"meliodas/src/repository"
+	"perkawis/config"
+	"perkawis/src/model"
+	"perkawis/src/repository"
 	"sync"
 )
 

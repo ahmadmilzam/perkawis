@@ -3,8 +3,8 @@ package helper
 import (
 	"encoding/json"
 	"github.com/labstack/echo/v4"
-	"meliodas/constant"
 	"net/http"
+	"perkawis/constant"
 )
 
 type (
@@ -34,16 +34,6 @@ type (
 		Data       interface{} `json:"data,omitempty"`
 	}
 )
-
-func NewErrorValidationMsg(code int, err error) error {
-	msg := constant.CodeMapping[code]
-	return ErrorWithCode{
-		CodeID:     code,
-		Msg:        msg,
-		StatusCode: http.StatusBadRequest,
-		Data:       err.Error(),
-	}
-}
 
 func NewErrorMsg(code int, err error) error {
 	msg := constant.CodeMapping[code]

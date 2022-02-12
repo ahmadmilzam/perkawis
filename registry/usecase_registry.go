@@ -1,10 +1,10 @@
 package registry
 
 import (
-	"meliodas/config"
-	"meliodas/src/model"
-	"meliodas/src/usecase"
 	"os"
+	"perkawis/config"
+	"perkawis/src/model"
+	"perkawis/src/usecase"
 	"strconv"
 	"sync"
 	"time"

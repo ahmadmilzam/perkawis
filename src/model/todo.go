@@ -3,7 +3,7 @@ package model
 import (
 	"context"
 	"gorm.io/gorm"
-	"meliodas/src/request"
+	"perkawis/src/request"
 	"time"
 )
 

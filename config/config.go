@@ -1,8 +1,8 @@
 package config
 
 import (
-	"meliodas/config/database"
 	"os"
+	"perkawis/config/database"
 	"strconv"
 	"sync"
 )

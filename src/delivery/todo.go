@@ -3,9 +3,9 @@ package delivery
 import (
 	"fmt"
 	"github.com/labstack/echo/v4"
-	"meliodas/helper"
-	"meliodas/src/model"
-	"meliodas/src/request"
+	"perkawis/helper"
+	"perkawis/src/model"
+	"perkawis/src/request"
 	"strconv"
 	"time"
 )

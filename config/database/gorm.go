@@ -3,8 +3,8 @@ package database
 import (
 	"fmt"
 	"github.com/labstack/gommon/log"
-	"meliodas/src/model"
 	"os"
+	"perkawis/src/model"
 	"time"
 
 	"gorm.io/driver/mysql"

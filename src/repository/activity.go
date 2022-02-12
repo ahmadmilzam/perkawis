@@ -5,11 +5,11 @@ import (
 	"errors"
 	"fmt"
 	"gorm.io/gorm"
-	"meliodas/config"
-	"meliodas/config/database"
-	"meliodas/constant"
-	"meliodas/helper"
-	"meliodas/src/model"
+	"perkawis/config"
+	"perkawis/config/database"
+	"perkawis/constant"
+	"perkawis/helper"
+	"perkawis/src/model"
 )
 
 type activity struct {

@@ -2,9 +2,9 @@ package usecase
 
 import (
 	"context"
-	"meliodas/constant"
-	"meliodas/src/model"
-	"meliodas/src/request"
+	"perkawis/constant"
+	"perkawis/src/model"
+	"perkawis/src/request"
 	"time"
 )
 
